@@ -7,7 +7,7 @@ public class Main {
 //        Calculator calculator = new Calculator();
 //        calculator.buildCalculator();
 
-        Authentication authentication = new Authentication();
+        Authentication authentication = new Authentication(5);
         authentication.buildAuthentication();
 
     }
